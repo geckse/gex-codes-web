@@ -8,8 +8,7 @@
     "url": "https://gex.codes"
   },
   "license": "",
-  "keywords": [
-  ],
+  "keywords": [],
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack-dev-server --config ./config/webpack.config.js",
     "start:dist": "cross-env NODE_ENV=production webpack-dev-server --config ./config/webpack.config.js && http-server ./dist -o",
@@ -68,6 +67,7 @@
     "figlet": "^1.2.3",
     "ftp-deploy": "^2.3.3",
     "jquery": "^3.4.1",
+    "materialize-css": "^1.0.0-rc.2",
     "normalize.css": "^8.0.1",
     "reset-css": "^4.0.1",
     "sanitize.css": "^11.0.0",

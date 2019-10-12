@@ -9,13 +9,13 @@ if (!ROOT) {
 
 const config = {
   // Your website's name, used for favicon meta tags
-  site_name: 'Static Site Boilerplate',
+  site_name: 'gex.codes',
 
   // Your website's description, used for favicon meta tags
-  site_description: 'A modern boilerplate for static website development',
+  site_description: 'Hi I\'m geckse and I make things.',
 
   // Your website's URL, used for sitemap
-  site_url: 'http://staticsiteboilerplate.com',
+  site_url: 'https://gex.codes',
 
   // Google Analytics tracking ID (leave blank to disable)
   googleAnalyticsUA: '',
