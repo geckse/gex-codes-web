@@ -46,7 +46,7 @@ const robots = new RobotstxtPlugin({
 const clean = new CleanWebpackPlugin();
 
 // Stylelint
-const stylelint = new StyleLintPlugin();
+//const stylelint = new StyleLintPlugin();
 
 // Extract CSS
 const cssExtract = new MiniCssExtractPlugin({
@@ -131,7 +131,6 @@ const google = new GoogleAnalyticsPlugin({
 
 module.exports = [
   clean,
-  stylelint,
   cssExtract,
   ...generateHTMLPlugins(),
   fs.existsSync(config.favicon) && favicons,
