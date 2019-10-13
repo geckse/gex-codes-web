@@ -106,3 +106,20 @@ header {
 #web .web-portfolio-slide .carousel-item {
   opacity: 1 !important;
 }
+
+/*
+  Code
+*/
+.card {
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 0 30px 1px rgba(0,0,0,0.2);
+  border: 0px;
+  transition: transform 0.23s cubic-bezier(0.785, 0.135, 0.15, 0.86),
+              opacity 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+
+  &:hover {
+    transform: scale3d(1.05, 1.05, 1.05);
+    opacity: 1 !important;
+  }
+}
